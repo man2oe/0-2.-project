@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'lato-black';
+  src: url('../fonts/lato-black/Lato-Black.eot');
+  src: url('../fonts/lato-black/Lato-Black.woff2') format('woff2'),
+       url('../fonts/lato-black/Lato-Black.woff') format('woff'),
+       url('../fonts/lato-black/Lato-Black.ttf') format('truetype'),
+       url('../fonts/lato-black/Lato-Black.svg#Lato-Black') format('svg'),
+       url('../fonts/lato-black/Lato-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/lato-light/Lato-Light.eot');
+  src: url('../fonts/lato-light/Lato-Light.woff2') format('woff2'),
+       url('../fonts/lato-light/Lato-Light.woff') format('woff'),
+       url('../fonts/lato-light/Lato-Light.ttf') format('truetype'),
+       url('../fonts/lato-light/Lato-Light.svg#Lato-Light') format('svg'),
+       url('../fonts/lato-light/Lato-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato-lightItalic';
+  src: url('../fonts/lato-light-italic/Lato-LightItalic.eot');
+  src: url('../fonts/lato-light-italic/Lato-LightItalic.woff2') format('woff2'),
+       url('../fonts/lato-light-italic/Lato-LightItalic.woff') format('woff'),
+       url('../fonts/lato-light-italic/Lato-LightItalic.ttf') format('truetype'),
+       url('../fonts/lato-light-italic/Lato-LightItalic.svg#Lato-LightItalic') format('svg'),
+       url('../fonts/lato-light-italic/Lato-LightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: italic;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/lato-regular/Lato-Regular.eot');
+  src: url('../fonts/lato-regular/Lato-Regular.woff2') format('woff2'),
+       url('../fonts/lato-regular/Lato-Regular.woff') format('woff'),
+       url('../fonts/lato-regular/Lato-Regular.ttf') format('truetype'),
+       url('../fonts/lato-regular/Lato-Regular.svg#Lato-Regular') format('svg'),
+       url('../fonts/lato-regular/Lato-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

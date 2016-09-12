@@ -1,0 +1,323 @@
+/*
+ * Базовые стили
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font: 16px, lato-light, Arial, sans-serif;
+	line-height: 1.4;
+	color: #616161;
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.wrapper {
+	max-width: 1024px;
+	min-width: 769px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+ * Шапка сайта
+ */
+
+header {
+	background: #262626;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+	padding: 30px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	float: left;
+	margin: 20px 15px;
+}
+
+nav a {
+	color: #d9d9d9;
+	font-size: 14px;
+	font-family: lato-black;
+	text-transform: uppercase;
+}
+
+nav li:first-child a {
+	color: #e15d57;
+}
+
+/*
+ * Основной блок с заголовком
+ */
+
+.main-block {
+	background: #2a2a2a;
+	color: #d9d9d9;
+	text-align: center;
+}
+
+h1 {
+	font: 60px lato-light;
+}
+
+h1 span {
+	font-family: lato-black;
+}
+
+h2 {
+	font: 40px lato-lightItalic;
+}
+
+.main-block input {
+	padding: 15px 50px;
+	margin-bottom: 60px;
+}
+
+.button {
+	background: #ff6760;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: lato-black;
+	cursor: pointer;
+}
+
+/*
+ * Преимущества
+ * Блок с иконками
+ */
+
+.advantages {
+	background: #f8f8f8;
+	font: 14px lato-regular;
+	padding-bottom: 40px;
+}
+
+.advantages_icon__block {
+	position: relative;
+	width: 23%;
+	margin-left: 2%;	
+	float: left;
+	text-align: center;
+}
+
+.advantages_icon h5 {
+	font: 18px lato-black;
+	margin-top: 150px;
+	margin-bottom: 0px;
+}
+
+.advantages_icon p {
+	width: 100%;
+	line-height: 2;
+	color: #616161;
+}
+
+/*
+ * Добавление иконок 
+ * К тегам <p> Псевдоклассом
+ */
+
+.android:before {
+	content: '';
+	position: absolute;
+	background: url(../icon/icon-sprite.png) no-repeat 0 0;
+	left: 38%;
+	top: 55px;
+	width: 51px;
+	height: 80px;
+}
+
+.pc:before {
+	content: '';
+	position: absolute;
+	background: url(../icon/icon-sprite.png) no-repeat -62px 0;
+	left: 37%;
+	top: 50px;
+	width: 67px;
+	height: 80px;
+}
+
+.photo:before {
+	content: '';
+	position: absolute;
+	background: url(../icon/icon-sprite.png) no-repeat -139px 0;
+	left: 37%;
+	top: 62px;
+	width: 65px;
+	height: 80px;
+}
+
+.timer:before {
+	content: '';
+	position: absolute;
+	background: url(../icon/icon-sprite.png) no-repeat -211px 0;
+	left: 35%;
+	top: 45px;
+	width: 57px;
+	height: 80px;
+}
+
+/*
+ *	Портфолио
+ */
+
+.portfolio {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.portfolio h3 {
+	font: 30px lato-black;
+	margin-bottom: 10px;
+}
+
+.portfolio p {
+	font: 20px lato-light;
+	margin-bottom: 60px;
+}
+
+.portfolio input {
+	font-size: 12px;
+	padding: 8px 20px;
+	padding-top: 12px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+
+.portfolio_img img {
+	float: left;
+	max-width: 24%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+/*
+ *	Get in Touch
+ */
+
+.get {
+	text-align: center;
+	background: #313131;
+}
+
+.get h5 {
+	color: #e0e0e0;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.get p {
+	font-size: 20px;
+	color: #838383;
+}
+
+.data p {
+	font: 14px Lato-Regular;
+	float: left;	
+	color: #bebebe;
+	margin-top: 0px;
+}
+
+.data p:first-child {
+	margin-left: 25%;
+}
+
+.data p:last-child {
+	margin-left: 50px;
+}
+
+.data a {
+	color: #bebebe;
+}
+
+.data a:hover {
+	text-decoration: underline;
+}
+
+/*
+ *	Иконки социальный сетей
+ */
+
+.social-block {
+	text-align: center;
+	clear: both;
+	padding-bottom: 50px;
+	width: 29%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.social a {
+	float: left;
+	width: 34px;
+	height: 34px;
+	margin-left: 1%;
+}
+
+.rss {
+	background: url(../icon/sprite-social-icon.png) no-repeat -4px -4px;
+}
+
+
+.facebook {
+	background: url(../icon/sprite-social-icon.png) no-repeat -41px -4px;
+}
+
+
+.twitter {
+	background: url(../icon/sprite-social-icon.png) no-repeat -79px -4px;
+}
+
+.wheel {
+	background: url(../icon/sprite-social-icon.png) no-repeat -115px -4px;
+}
+
+.p {
+	background: url(../icon/sprite-social-icon.png) no-repeat -152px -4px;
+}
+
+footer {
+	background: #2c2c2c;
+	text-align: center;
+	padding: 20px 0;
+	color: #bebebe;
+	font-size: 14px;
+	font-family: lato-regular;
+}
